@@ -1,0 +1,87 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins;
+    text-align: center;
+    font-size: 1rem;
+}
+header{
+    text-align: center;
+    margin: 5rem auto auto auto;
+    max-width: 45rem;
+}
+h1{
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+    font-size: 3rem;
+}
+h2{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+    font-size: 3.5rem;
+}
+#top-container-p{
+    margin: 1rem auto;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.3rem;
+}
+main{
+    margin-top: 2rem;
+    justify-content: center;
+    flex-flow: row wrap;
+    vertical-align: middle;
+
+}
+.card-container{
+    display: inline-block;
+    vertical-align: middle;
+}
+.container{
+    padding: 0rem 20px 10px 25px;
+    width: 400px;
+    height: 285px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0px 10px 25px -10px hsl(229, 6%, 66%);
+    margin: 2rem 1rem 1rem 1rem;
+    transition: all 1s;
+}
+.container:hover{
+    transform: scale(1.1);
+}
+#supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+#teambuilder{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+#karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+#calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+h3{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 2rem;
+}
+.atribution{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.7rem;
+}
+.container-p{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.2rem;
+}
+img{
+    margin: 1rem 1rem 1rem 20rem;
+    width: 20%;
+}
+footer{
+    margin-top: 3rem;
+}
